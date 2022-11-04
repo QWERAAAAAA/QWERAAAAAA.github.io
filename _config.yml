@@ -23,10 +23,10 @@ timezone:
 
 title: M12J10                         # the main title
 
-tagline: 梦想职业是在大理洱海边开民宿。   # it will display as the sub-title
+tagline: 梦想职业是在大理开民宿。   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-    现役程序猿，喜欢抽离一些的世界，梦想职业是在大理洱海边开民宿。
+    梦想职业是在大理开民宿。
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ''
