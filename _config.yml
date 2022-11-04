@@ -23,7 +23,7 @@ timezone:
 
 title: M12J10                         # the main title
 
-tagline: 这里是M12J10的博客!   # it will display as the sub-title
+tagline: 现役程序猿，喜欢抽离一些的世界，梦想职业是在大理洱海边开民宿。   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
     现役程序猿，喜欢抽离一些的世界，梦想职业是在大理洱海边开民宿。
@@ -83,7 +83,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: ./assets/config/avatar.jpg
+avatar: ./assets/config/IMG_9195.JPG
 
 # boolean type, the global switch for ToC in posts.
 toc: true
