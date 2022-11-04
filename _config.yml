@@ -13,7 +13,7 @@ baseurl: ''
 lang: zh-CN
 
 # Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
-prefer_datetime_locale: Asia/Shanghai
+prefer_datetime_locale: Asia/Guangzhou
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone:
@@ -21,18 +21,18 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 湾区书记汤姆                         # the main title
+title: M12J10                         # the main title
 
-tagline: 这里是湾区书记汤姆的博客～   # it will display as the sub-title
+tagline: 这里是M12J10的博客!   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-    这是通过Chirpy主题配置而成的
+    现役程序猿，喜欢抽离一些的世界，梦想职业是在大理洱海边开民宿。
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ''
 
 github:
-  username: tomstillcoding             # change to your github username
+  username: QWERAAAAAA             # change to your github username
 
 twitter:
   username: twitter_username            # change to your twitter username
@@ -40,8 +40,8 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: tomstillcoding
-  email: example@doamin.com             # change to your email address
+  name: m12j10
+  email: 13360698639@163.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username      # change to your twitter homepage
