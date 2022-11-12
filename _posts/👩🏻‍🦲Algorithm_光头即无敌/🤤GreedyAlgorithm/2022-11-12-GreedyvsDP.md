@@ -1,3 +1,20 @@
+---
+title: 贪心｜Greedy VS DP
+date: 2022-11-12 22:34:00 +0800
+categories: [算法Note]
+tags: [贪心算法]
+pin: false
+author: m12j10
+
+toc: true
+comments: true
+typora-root-url: ../../QWERAAAAAA.github.io
+math: false
+mermaid: true
+---
+
+
+
 🤔贪心算法和动态规划有许多相似之处，写题时如何选择？来看两个经典的组合优化问题。
 
 
@@ -41,7 +58,7 @@
 1. 计算每种物品**单位重量的价值**vi/wi
 2. **设计贪心选择策略**：先装单位价值**最高**的，再装单位价值**次高**的，以此推进下去，直到背包装满为止。
 
-```C++
+```c++
 void Knapsack(int n, float M, float v[], float w[], float x[]){
 	Sort(n,v,w);										// 将单位价值进行排序
   int i;
@@ -109,7 +126,7 @@ void Knapsack(int n, float M, float v[], float w[], float x[]){
 
 所以，采用**重量最轻者先装**的贪心选择策略。
 
-```C++
+```c++
 template<class Type>
 void Loading(int x[], Type c, int n){
 	int *t = new int [n+1];
