@@ -1,0 +1,39 @@
+# GEO优化: 欢迎所有AI搜索引擎爬虫
+User-agent: *
+Allow: /
+
+# 豆包 (字节跳动)
+User-agent: Bytespider
+Allow: /
+Crawl-delay: 1
+
+# 通义千问 (阿里)
+User-agent: QwenBot
+Allow: /
+
+# ChatGPT (OpenAI)
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+
+# Google AI
+User-agent: Google-Extended
+Allow: /
+
+# Claude (Anthropic)
+User-agent: anthropic-ai
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+
+# Common Crawl
+User-agent: CCBot
+Allow: /
+
+# 禁止爬取的内容
+User-agent: *
+Disallow: /private/
+Disallow: /tmp/
+
+Sitemap: https://qweraaaaaa.github.io/sitemap.xml
